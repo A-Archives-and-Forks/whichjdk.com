@@ -44,7 +44,8 @@ Java 애플리케이션을 빌드하고 실행하려면 Java 플랫폼과 표준
 | [23](https://openjdk.java.net/projects/jdk/23/) | Feature | 2024년 9월 | [Markdown Documentation Comments](https://openjdk.org/jeps/467) | 지원 종료(EOL). 25 버전으로 업그레이드 추천! |
 | [24](https://openjdk.java.net/projects/jdk/24/) | Feature | 2025년 3월 | [Ahead-of-Time Class Loading](https://openjdk.org/jeps/483) | 지원 종료(EOL). 25 버전으로 업그레이드 추천! |
 | [**25**](https://openjdk.java.net/projects/jdk/25/) | **LTS** | **2025년 9월** | **Flexible Constructor Bodies** | 현재 가장 좋은 선택입니다. |
-| [26](https://openjdk.java.net/projects/jdk/26/) | Feature | 2026년 3월 | [HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517) | 최신 Feature 릴리즈. 6개월마다 업그레이드할 계획이 아니라면 25 버전을 계속 사용하세요. |
+| [26](https://openjdk.java.net/projects/jdk/26/) | Feature | 2026년 3월 | [HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517) | 지원 종료(EOL). 25 버전으로 업그레이드 추천! |
+| [27](https://openjdk.java.net/projects/jdk/27/) | Feature | 2026년 9월 | [Compact Object Headers by Default](https://openjdk.org/jeps/534) | 최신 Feature 릴리즈. 6개월마다 업그레이드할 계획이 아니라면 25 버전을 계속 사용하세요. |
 
 **(1) 최신 LTS 버전을 계속 사용할지**, 아니면 **(2) 최신 릴리즈를 사용하고 6개월마다 업그레이드할지**. 두 가지 선택지가 있습니다.
 두 선택지 모두 괜찮지만, 불확실하다면 최신 LTS 버전을 사용하는 걸 추천합니다.
@@ -332,7 +333,7 @@ sdk list java
 
 특정 버전을 설치하고 싶다면:
 ```
-sdk install java 25.0.2-tem
+sdk install java 25.0.4-tem
 ```
 
 버전을 확인하고 싶다면:

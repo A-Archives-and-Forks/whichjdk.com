@@ -44,7 +44,8 @@ Every two years, the September release will be a Long-Term-Support (LTS) release
 | [23](https://openjdk.java.net/projects/jdk/23/)     | Feature | 09/2024	     | [Markdown Documentation Comments](https://openjdk.org/jeps/467)                  | EOL. Upgrade to 25 now!                                                                                                                                                            |
 | [24](https://openjdk.java.net/projects/jdk/24/)     | Feature | 03/2025	     | [Ahead-of-Time Class Loading](https://openjdk.org/jeps/483)                  | EOL. Upgrade to 25 now!                                                                                                                                                           |
 | [**25**](https://openjdk.java.net/projects/jdk/25/)     |  **LTS** | **09/2025**	     | **Flexible Constructor Bodies** | This is currently the best choice.                                                                                                                                                          |
-| [26](https://openjdk.java.net/projects/jdk/26/)     | Feature | 03/2026	     | [HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)                    | Latest feature release. Stick with 25 unless you want to upgrade every six months.                                                                                                                                                            |
+| [26](https://openjdk.java.net/projects/jdk/26/)     | Feature | 03/2026	     | [HTTP/3 for the HTTP Client API](https://openjdk.org/jeps/517)                    | EOL. Upgrade to 25 now!                                                                                                                                                            |
+| [27](https://openjdk.java.net/projects/jdk/27/)     | Feature | 09/2026	     | [Compact Object Headers by Default](https://openjdk.org/jeps/534)                    | Latest feature release. Stick with 25 unless you want to upgrade every six months.                                                                                                                                                            |
 
 You have to decide if you want to stick with the latest LTS version, or if you go with the latest feature release and upgrade every six months.
 Both options are okay, but if you're uncertain, stick with the latest LTS version.
@@ -325,7 +326,7 @@ sdk list java
 and install a specific version:
 
 ```
-sdk install java 25.0.2-tem
+sdk install java 25.0.4-tem
 ```
 
 Validate by checking the version:
